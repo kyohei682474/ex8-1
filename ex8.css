@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list {
+  width : 960px;
+  height: auto;
+  margin: auto; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+} 
+
+.list-text{
+  padding: 20px;
+  
+  
+}
+
+.list-text:nth-child(odd) {
+  background-color:#CCCCCC;
+}
+
+.box .box-contents{
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+/* 親の親に大きさをすればいいのか、親に大きさをしてすればいいのかわからない*/
+.box-contents{
+  width: 960px;
+  margin:0 auto;
+  padding-bottom:10px;
+
+}
+
+.box-ditail{
+  width: 30%;
+  height: 200px;
+  
+  background-color:yellow;
+  margin-bottom:40px;
+}
+.box-ditail:nth-child(1) {
+  margin-right:5%;
+}
