@@ -12,16 +12,16 @@ a {
 .list {
   width : 960px;
   height: auto;
-  margin: auto; 
+  margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  
-} 
+
+}
 
 .list-text{
   padding: 20px;
-  
-  
+
+
 }
 
 .list-text:nth-child(odd) {
@@ -31,8 +31,8 @@ a {
 .box .box-contents{
   display: flex;
   flex-wrap: wrap;
-  
-  
+
+
 }
 /* 親の親に大きさをすればいいのか、親に大きさをしてすればいいのかわからない*/
 .box-contents{
@@ -45,10 +45,38 @@ a {
 .box-ditail{
   width: 30%;
   height: 200px;
-  
+
   background-color:yellow;
   margin-bottom:40px;
 }
 .box-ditail:nth-child(1) {
   margin-right:5%;
+  background-color:orange
+}
+
+
+.box-ditail:nth-child(2) {
+  margin-right:5%;
+
+}
+
+.box-ditail:nth-child(4) {
+  margin-right:5%;
+}
+
+.box-ditail:nth-child(5) {
+  margin-right:5%;
+  background-color:orange
+}
+
+.box-ditail:nth-child(7) {
+  margin-right:5%;
+}
+
+.box-ditail:nth-child(8) {
+  margin-right:5%;
+}
+
+.box-ditail:nth-child(9) {
+  background-color:orange;
 }
